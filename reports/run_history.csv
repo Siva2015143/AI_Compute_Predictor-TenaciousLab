@@ -1,0 +1,2 @@
+id,run_name,created_at,status,metrics,notes
+1,first train,2025-10-16T12:13:28.538991,completed,"{""final_loss"": 0.32892152667045593}",

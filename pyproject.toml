@@ -1,0 +1,56 @@
+[project]
+name = "tenaciouslab"
+description = "TenaciousLab: Compute-Aware Learning and Tokenized AI Compute"
+authors = [
+    { name = "Sivamani Battala", email = "sivamani6104@gmail.com" }
+]
+dependencies = [
+    "wandb>=0.15.0",
+    "ruamel-yaml>=0.17.33",
+    "numpy>=1.25",
+    "matplotlib>=3.7.0",
+    "opt-einsum>=3.3.0",
+    "h5py>=3.10.0",
+]
+requires-python = ">=3.9"
+readme = "README.rst"
+license = { text = "MIT" }
+
+dynamic = ["version"]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["tenaciouslab", "tenaciouslab.*"]
+
+[tool.setuptools.dynamic]
+version = { attr = "tenaciouslab.__version__" }
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "flaky>=3.7",
+    "black>=23.0",
+]
+doc = [
+    "myst-nb>=0.17.0",
+    "numpydoc>=1.5.0",
+    "sphinx>=7.0.0",
+    "sphinx-gallery>=0.14.0",
+    "sphinx-design>=0.5.0",
+]
+all = [
+    "pytest>=7.0",
+    "flaky>=3.7",
+    "black>=23.0",
+    "myst-nb>=0.17.0",
+    "numpydoc>=1.5.0",
+    "sphinx>=7.0.0",
+    "sphinx-gallery>=0.14.0",
+    "sphinx-design>=0.5.0",
+    "matplotlib>=3.7.0",
+    "numpy>=1.25",
+    "scipy>=1.11.0"
+]

@@ -1,0 +1,10 @@
+black
+flaky
+pytest
+
+fastapi
+uvicorn
+streamlit
+requests
+matplotlib
+gradio  # keep if you want old Gradio

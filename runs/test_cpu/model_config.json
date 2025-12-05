@@ -1,0 +1,15 @@
+{
+  "hidden_sizes": [
+    512,
+    256,
+    128
+  ],
+  "epochs": 50,
+  "batch_size": 256,
+  "lr": 0.001,
+  "activation": "gelu",
+  "dropout": 0.0,
+  "param_count": 167425,
+  "est_flops": 3348500000,
+  "est_tokens": 320000
+}

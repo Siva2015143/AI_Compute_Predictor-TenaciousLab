@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-10-19T00:18:45.827826",
+  "model_config": {
+    "timestamp": "2025-10-19T02:40:16.261783",
+    "model_name": "mlp",
+    "hidden_sizes": [
+      512,
+      256,
+      128
+    ],
+    "epochs": 50,
+    "batch_size": 256,
+    "lr": 0.001,
+    "activation": "gelu",
+    "dropout": 0.0,
+    "param_count": 167425,
+    "est_flops": 3348500000,
+    "est_tokens": 320000
+  },
+  "run_count": 1
+}

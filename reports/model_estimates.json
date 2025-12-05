@@ -1,0 +1,47 @@
+[
+  {
+    "preset": "slm_small",
+    "params": 34561,
+    "params_human": "34.561k",
+    "needed_tokens": 691220.0,
+    "flops_TFLOPS": 0.14333552652,
+    "dataset_tokens": 9000,
+    "dataset_match": 1.302045658401088
+  },
+  {
+    "preset": "slm_medium",
+    "params": 662529,
+    "params_human": "662.529k",
+    "needed_tokens": 13250580.0,
+    "flops_TFLOPS": 52.67336110092,
+    "dataset_tokens": 9000,
+    "dataset_match": 0.0679215551319263
+  },
+  {
+    "preset": "transformer_tiny",
+    "params": 7244544,
+    "params_human": "7.245M",
+    "needed_tokens": 144890880.0,
+    "flops_TFLOPS": 6298.01013215232,
+    "dataset_tokens": 9000,
+    "dataset_match": 0.006211571080250186
+  },
+  {
+    "preset": "mini_gpt_125M",
+    "params": 124391424,
+    "params_human": "124.391M",
+    "needed_tokens": 2487828480.0,
+    "flops_TFLOPS": 1856787.1637697332,
+    "dataset_tokens": 9000,
+    "dataset_match": 0.00036176127383186804
+  },
+  {
+    "preset": "caif_mini_lab",
+    "params": 11137,
+    "params_human": "11.137k",
+    "needed_tokens": 222740.0,
+    "flops_TFLOPS": 0.01488393228,
+    "dataset_tokens": 9000,
+    "dataset_match": 4.040585435934274
+  }
+]
