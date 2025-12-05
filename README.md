@@ -61,16 +61,6 @@ The model learns patterns between inputs (tokens, architecture) and outputs (per
 
 ---
 
-## Project Structure
-```
-├── engine/          # Inference and predictions
-├── tokens/          # Data processing
-├── training/        # Model training code
-├── tools/           # Utilities
-├── runs/            # Trained models
-└── reports/         # Generated reports
-```
-
 ---
 
 ## Usage
